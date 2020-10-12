@@ -1,0 +1,54 @@
+     
+    
+    
+                * {
+                    margin:1px;
+                                                                            padding:0px;
+                }
+                
+                #header {
+                    margin:auto;
+                    width:1300px;
+                    font-family:Algerial, Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+                }
+                
+                ul, ol {
+                    list-style:none;
+                }
+                
+                .nav > li {
+                    float:left;
+                }
+                
+                .nav li a {
+                    background-color:rgb(255, 0, 221);
+                    color:BLACK;
+                    text-decoration:none;
+                    padding:10px 12px;
+                    display:block;
+    
+                }
+                
+                .nav li a:hover {
+                    background-color:WHITE;
+                }
+                
+                .nav li ul {
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+                }
+                
+                .nav li:hover > ul {
+                    display:block;
+                }
+                
+                .nav li ul li {
+                    position:relative;
+                }
+                
+                .nav li ul li ul {
+                    right:-140px;
+                    top:0px;
+                }
+                
